@@ -1,0 +1,32 @@
+{
+  "name": "sails-hook-sprockets",
+  "version": "0.0.1",
+  "description": "Sails JS hook to provide a better asset pipeline",
+  "main": "index.js",
+  "sails": {
+    "isHook": true
+  },
+  "author": "Naxmeify",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Naxmeify/sails-hook-sprockets.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Naxmeify/sails-hook-sprockets/issues"
+  },
+  "homepage": "https://github.com/Naxmeify/sails-hook-sprockets",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha -R spec"
+  },
+  "dependencies": {
+    "connect-mincer": "~1.0.0",
+    "mincer": "~0.5.13",
+    "nib": "^1.1.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.5",
+    "sails": "~0.11.0",
+    "should": "^6.0.3"
+  }
+}
