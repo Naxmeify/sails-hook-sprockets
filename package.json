@@ -20,9 +20,17 @@
     "test": "./node_modules/.bin/mocha -R spec"
   },
   "dependencies": {
+    "clean-css": "^3.3.1",
+    "coffee-script": "^1.9.3",
     "connect-mincer": "~1.0.0",
+    "ejs": "^2.3.1",
+    "jade": "^1.10.0",
+    "less": "^2.5.1",
     "mincer": "~0.5.13",
-    "nib": "^1.1.0"
+    "nib": "^1.1.0",
+    "node-sass": "^3.1.2",
+    "stylus": "^0.51.1",
+    "uglify-js": "^2.4.23"
   },
   "devDependencies": {
     "mocha": "^2.2.5",
